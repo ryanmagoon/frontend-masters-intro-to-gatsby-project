@@ -1,11 +1,13 @@
 import { Link } from 'gatsby';
 import * as React from 'react';
 
+import Layout from '../components/layout';
+
 export default function Index() {
   return (
-    <main>
+    <Layout>
       <h1>Hello Frontend Masters!</h1>
       <Link to="/about">About</Link>
-    </main>
+    </Layout>
   );
 }
